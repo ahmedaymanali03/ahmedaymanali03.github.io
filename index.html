@@ -7,44 +7,102 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- Header / Hero Section -->
     <header class="bg-slate-900 text-white py-20 px-6">
         <div class="max-w-5xl mx-auto">
             <h1 class="text-4xl md:text-6xl font-bold mb-4">Ahmed Ayman Aly</h1>
             <h2 class="text-xl md:text-2xl text-blue-400 font-medium mb-6">Computer Engineering & Software Systems</h2>
             <p class="max-w-2xl text-gray-300 leading-relaxed mb-8">
                 Graduating in 2026 with a dual B.Sc. from Ain Shams University and the University of East London. 
-                Specializing in AI-driven automation, predictive modeling, and robust software architecture. Passionate about writing 
-                clean, code-first solutions and collaborating within fast-paced engineering teams.
+                Specializing in AI-driven automation, predictive modeling, and robust software architecture. 
+                Bringing a proactive mindset to every challenge, I am passionate about writing clean, code-first solutions 
+                and continuously seeking self-enhancement opportunities within fast-paced engineering teams.
             </p>
-            <div class="flex space-x-4">
-                <a href="https://github.com/ahmedaymanali03" class="bg-white text-slate-900 px-6 py-2 rounded-md font-semibold hover:bg-gray-200 transition">GitHub Profile</a>
-                <a href="#projects" class="border border-white text-white px-6 py-2 rounded-md font-semibold hover:bg-white hover:text-slate-900 transition">View My Work</a>
+            <div class="flex flex-wrap gap-4">
+                <a href="https://github.com/ahmedaymanali03" target="_blank" class="bg-white text-slate-900 px-6 py-2 rounded-md font-semibold hover:bg-gray-200 transition">GitHub</a>
+                <a href="https://www.linkedin.com/in/ahmed-ayman-aly/" target="_blank" class="bg-[#0A66C2] text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 transition">LinkedIn</a>
+                <a href="#experience" class="border border-white text-white px-6 py-2 rounded-md font-semibold hover:bg-white hover:text-slate-900 transition">Experience</a>
+                <a href="#projects" class="border border-white text-white px-6 py-2 rounded-md font-semibold hover:bg-white hover:text-slate-900 transition">Projects</a>
             </div>
         </div>
     </header>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-20 px-6">
+    <section id="experience" class="py-20 px-6 bg-white border-b border-gray-200">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 border-b-2 border-blue-500 pb-2 inline-block">Relevant Experience</h2>
+            
+            <div class="space-y-10">
+                
+                <div class="relative pl-8 border-l-4 border-blue-500">
+                    <div class="absolute w-3 h-3 bg-blue-500 rounded-full -left-[8px] top-1.5"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                        <h3 class="text-xl font-bold text-slate-800">Graduation Project Engineer</h3>
+                        <span class="text-blue-600 font-semibold mt-1 md:mt-0">Sept 2025 – June 2026</span>
+                    </div>
+                    <h4 class="text-lg text-gray-600 font-medium mb-3">Siemens EDA</h4>
+                    <p class="text-gray-700">
+                        Designing and implementing an automatic Electron GUI automation pipeline and generating robust test cases utilizing Playwright and Model Context Protocol (MCP).
+                    </p>
+                </div>
+
+                <div class="relative pl-8 border-l-4 border-blue-500">
+                    <div class="absolute w-3 h-3 bg-blue-500 rounded-full -left-[8px] top-1.5"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                        <h3 class="text-xl font-bold text-slate-800">AI and Digital Verification Intern</h3>
+                        <span class="text-blue-600 font-semibold mt-1 md:mt-0">Aug 2025 – Nov 2025</span>
+                    </div>
+                    <h4 class="text-lg text-gray-600 font-medium mb-3">Si-Vision</h4>
+                    <p class="text-gray-700">
+                        Focused on automating complex digital verification workflows to enhance testing efficiency and streamline the verification processes for hardware environments.
+                    </p>
+                </div>
+
+                <div class="relative pl-8 border-l-4 border-blue-500">
+                    <div class="absolute w-3 h-3 bg-blue-500 rounded-full -left-[8px] top-1.5"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                        <h3 class="text-xl font-bold text-slate-800">AI and Machine Learning Intern</h3>
+                        <span class="text-blue-600 font-semibold mt-1 md:mt-0">July 2025 – Oct 2025</span>
+                    </div>
+                    <h4 class="text-lg text-gray-600 font-medium mb-3">IFGICT</h4>
+                    <p class="text-gray-700">
+                        Collaborated on artificial intelligence and machine learning initiatives, applying analytical algorithms and predictive models to solve technical engineering challenges.
+                    </p>
+                </div>
+
+                <div class="relative pl-8 border-l-4 border-gray-300">
+                    <div class="absolute w-3 h-3 bg-gray-300 rounded-full -left-[8px] top-1.5"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                        <h3 class="text-xl font-bold text-slate-800">Coding Tutor</h3>
+                        <span class="text-gray-500 font-semibold mt-1 md:mt-0">July 2025 – Aug 2025</span>
+                    </div>
+                    <h4 class="text-lg text-gray-600 font-medium mb-3">iSchool</h4>
+                    <p class="text-gray-700">
+                        Mentored students in core programming fundamentals, simplifying complex technical concepts to foster a strong foundation in software development.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6 bg-gray-50">
         <div class="max-w-5xl mx-auto">
             <h2 class="text-3xl font-bold mb-12 border-b-2 border-blue-500 pb-2 inline-block">Technical Projects</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-                <!-- Project 1 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">Traffic Accidents Prediction AI</h3>
-                            <a href="https://github.com/Hassan-AlMarsafy/traffic-accidents-prediction-Ai-application" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/Hassan-AlMarsafy/traffic-accidents-prediction-Ai-application" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> A machine learning application designed to forecast traffic accident probabilities by analyzing historical datasets and complex environmental variables.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Core Developer:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Engineered the end-to-end machine learning pipeline, encompassing data preprocessing, feature engineering, and rigorous model evaluation.</li>
@@ -54,15 +112,14 @@
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">Stroke Prediction Model</h3>
-                            <a href="https://github.com/marwannour1/stroke_prediction" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/marwannour1/stroke_prediction" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> A data-driven healthcare tool utilizing predictive modeling to assess patient risk factors and forecast the likelihood of stroke events.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Core Developer:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Designed the complete predictive workflow, utilizing comprehensive healthcare datasets to train and validate risk assessment models.</li>
@@ -72,15 +129,14 @@
                     </div>
                 </div>
 
-                <!-- Project 3 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">Smart Hydroponic App</h3>
-                            <a href="https://github.com/Yehia404/Smart-Hydroponic-App" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/Yehia404/Smart-Hydroponic-App" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> An IoT-based software solution seamlessly integrated with hardware sensors to monitor, control, and automate hydroponic farming environments in real time.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Core Developer:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Developed the complex hardware-software integration logic, ensuring reliable data acquisition from physical environmental sensors.</li>
@@ -90,15 +146,14 @@
                     </div>
                 </div>
 
-                <!-- Project 4 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">Barcode Vision</h3>
-                            <a href="https://github.com/marwannour1/barcode_vision" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/marwannour1/barcode_vision" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> A specialized computer vision utility focused on accurately scanning, processing, and interpreting various barcode formats from image data.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Core Developer:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Implemented the complete computer vision pipeline, focusing on image enhancement, noise reduction, and accurate data extraction.</li>
@@ -108,15 +163,14 @@
                     </div>
                 </div>
 
-                <!-- Project 5 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">Train Management System</h3>
-                            <a href="https://github.com/marwannour1/trainManagementSystem" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/marwannour1/trainManagementSystem" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> A comprehensive software system engineered to streamline railway operations, including train scheduling, real-time tracking, and passenger data management.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Core Developer:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Architected a normalized relational database design and robust backend class structures to handle complex scheduling logic.</li>
@@ -126,15 +180,14 @@
                     </div>
                 </div>
 
-                <!-- Project 6 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">Web Crawler</h3>
-                            <a href="https://github.com/marwannour1/web_crawler" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/marwannour1/web_crawler" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> A highly efficient automated web scraping utility designed to systematically navigate web pages and extract structured information from diverse target sites.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Core Developer:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Developed concurrent automated scripts capable of handling complex network requests and bypassing common scraping bottlenecks.</li>
@@ -144,15 +197,14 @@
                     </div>
                 </div>
                 
-                <!-- Project 7 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">E-Commerce Web Application</h3>
-                            <a href="https://github.com/AhmedHossam68/e-commerce-web-application" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/AhmedHossam68/e-commerce-web-application" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> A scalable web-based e-commerce platform offering a seamless online shopping experience, complete with dynamic product catalogs and secure cart management.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Core Developer:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Constructed the full-stack architecture, delivering responsive frontend interfaces alongside secure, RESTful backend APIs.</li>
@@ -162,15 +214,14 @@
                     </div>
                 </div>
 
-                <!-- Project 8 (Solo/Owned) -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">E-Commerce Desktop Application</h3>
-                            <a href="https://github.com/ahmedaymanali03/Ecommerce-Desktop-Application-Using-Java" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/ahmedaymanali03/Ecommerce-Desktop-Application-Using-Java" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> A robust, standalone Java desktop application designed as a comprehensive point-of-sale and inventory management system for retail operations.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Project Lead:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Architected the complete Java application from the ground up, employing object-oriented principles for high maintainability.</li>
@@ -180,15 +231,14 @@
                     </div>
                 </div>
 
-                <!-- Project 9 (Solo/Owned) -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col hover:shadow-lg transition">
                     <div class="p-6 flex-grow">
                         <div class="flex justify-between items-start mb-4">
                             <h3 class="text-xl font-bold text-slate-800">Online Book Store</h3>
-                            <a href="https://github.com/ahmedaymanali03/Online-Book-Store" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold">View Source &rarr;</a>
+                            <a href="https://github.com/ahmedaymanali03/Online-Book-Store" target="_blank" class="text-blue-500 hover:text-blue-700 text-sm font-semibold whitespace-nowrap ml-2">View Source &rarr;</a>
                         </div>
                         <p class="text-gray-600 text-sm mb-4"><strong>Project Goal:</strong> A full-featured digital storefront tailored for literature, enabling users to seamlessly browse, manage, and purchase both physical and digital books.</p>
-                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500">
+                        <div class="bg-green-50 p-4 rounded-md border-l-4 border-green-500 mt-auto">
                             <h4 class="text-sm font-bold text-slate-800 mb-2">Project Lead:</h4>
                             <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
                                 <li>Led the development of full-stack features, including secure user authentication, shopping cart logic, and administrative inventory controls.</li>
@@ -202,7 +252,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-slate-900 text-gray-400 py-8 text-center">
         <p>&copy; 2026 Ahmed Ayman Aly. Built with code-first precision.</p>
     </footer>
